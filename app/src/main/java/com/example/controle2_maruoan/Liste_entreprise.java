@@ -62,7 +62,7 @@ public class Liste_entreprise extends AppCompatActivity {
 
             LayoutInflater li = getLayoutInflater();
             View v =li.inflate(R.layout.grid,null);
-            TextView tid,t_raison,tfamil,t_capital,tpriv;
+            TextView tid,t_raison,tfamil,t_capital;
 
             t_raison=v.findViewById(R.id.t_raison);
             t_capital=v.findViewById(R.id.t_capital);

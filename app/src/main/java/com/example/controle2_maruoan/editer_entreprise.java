@@ -109,7 +109,7 @@ public class editer_entreprise extends AppCompatActivity {
 
         AlertDialog.Builder lb = new AlertDialog.Builder(editer_entreprise.this);
         lb.setTitle("Message update");
-        lb.setMessage("Are you sure you want to Delete This Product");
+        lb.setMessage("Are you sure you want to Delete This Entrerise");
 
 
         lb.setPositiveButton("Supprimmer", new DialogInterface.OnClickListener() {
