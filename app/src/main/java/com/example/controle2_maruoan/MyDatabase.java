@@ -86,4 +86,21 @@ public class MyDatabase extends SQLiteOpenHelper {
 
         return sqLiteDatabase.update(TABLE_NAME,ct,"id = ?",new String[] {String.valueOf(p.getId())});
     }
+
+    public static Entreprise getOneEntreprise(SQLiteDatabase sqLiteDatabase, int id){
+        Entreprise p = null;
+
+        Cursor cur = sqLiteDatabase.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE id = " + id,null);
+
+        if(cur.moveToNext()){
+            p = new Entreprise();
+            p.setId(cur.getInt(0));
+            p.setRaison_social(cur.getString(1));
+            p.setAdress(cur.getString(2));
+            p.setCapital(cur.getDouble(3));
+
+        }
+
+        return p;
+    }
 }
