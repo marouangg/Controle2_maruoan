@@ -7,30 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Menu General"
-        android:gravity="center" />
+
+
     <Button
+        android:id="@+id/b1"
         style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/a_ajout" />
 
-        android:text="@string/app_ajout"
-        android:background="@drawable/shaped"
-
-        android:id="@+id/btnAjout"/>
     <Button
+        android:id="@+id/b2"
         style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/a_edite" />
 
-        android:text="@string/app_edite"
-        android:background="@drawable/shaped"
-
-        android:id="@+id/btnEdite"/>
     <Button
+        android:id="@+id/b3"
         style="@style/btnMenu"
+        android:onClick="acces"
+        android:text="@string/a_lister" />
 
-        android:background="@drawable/shaped"
-        android:text="@string/app_lister"
-        android:id="@+id/btnLister"/>
 
 </LinearLayout>
