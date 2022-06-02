@@ -4,6 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".editer_entreprise">
+    tools:context=".editer_entreprise"
+    android:orientation="vertical">
 
+
+    <Spinner
+        android:id="@+id/speentrerise"
+        style="@style/combo" />
+
+    <EditText
+        android:id="@+id/ed_rais"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre raison social..." />
+
+    <EditText
+        android:id="@+id/ed_adress"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre adress..." />
+
+    <EditText
+        android:id="@+id/ed_capi"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre capital..."
+        android:inputType="numberDecimal" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/btnMenu.stylebtn"
+            android:onClick="modifier"
+            android:text="@string/modifier"
+            />
+
+        <Button
+            style="@style/btnMenu.stylebtn"
+            android:onClick="supprimer"
+            android:text="@string/suprimer" />
+    </LinearLayout>
 </LinearLayout>

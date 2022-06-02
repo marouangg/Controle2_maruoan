@@ -80,9 +80,9 @@ public class MyDatabase extends SQLiteOpenHelper {
         ContentValues ct = new ContentValues();
 
         ct.put("ID",p.getId());
-        ct.put("LIBELLE",p.getRaison_social());
-        ct.put("FAMILLE",p.getAdress());
-        ct.put("PRIXACHAT",p.getCapital());
+        ct.put("raison_social",p.getRaison_social());
+        ct.put("adress",p.getAdress());
+        ct.put("capital",p.getCapital());
 
         return sqLiteDatabase.update(TABLE_NAME,ct,"id = ?",new String[] {String.valueOf(p.getId())});
     }

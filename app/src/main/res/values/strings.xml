@@ -7,5 +7,7 @@
     <string name="a_lister">Lister tous entrepris</string>
     <string name="sauvgarder">Sauvgarder</string>
     <string name="annuler">Annuler</string>
+    <string name="modifier">Modifier</string>
+    <string name="suprimer">Suprimer</string>
 
 </resources>
