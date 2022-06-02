@@ -5,4 +5,7 @@
     <string name="a_ajout">Ajouter une entrepris</string>
     <string name="a_edite">Editer une entrepris</string>
     <string name="a_lister">Lister tous entrepris</string>
+    <string name="sauvgarder">Sauvgarder</string>
+    <string name="annuler">Annuler</string>
+
 </resources>

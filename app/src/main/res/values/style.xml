@@ -46,4 +46,34 @@
         <item name="android:background">#EFD6B7</item>
     </style>
 
+    <style name="StyleEdit" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/rd</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="StyleButton" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/rd</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="btn" parent="android:Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">5sp</item>
+        <item name="android:background">@drawable/shaped</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
 </resources>

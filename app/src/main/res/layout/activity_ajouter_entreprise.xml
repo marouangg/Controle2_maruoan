@@ -4,6 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ajouter_entreprise">
+    tools:context=".Ajouter_entreprise"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/addlib"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre raison social..." />
+
+    <EditText
+        android:id="@+id/addfam"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre adress..." />
+
+    <EditText
+        android:id="@+id/addpa"
+        style="@style/zonesaisie"
+        android:hint="Tapez votre capital..."
+        android:inputType="numberDecimal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/btn"
+
+            android:onClick="ajouterProduit"
+            android:text="@string/annuler" />
+
+        <Button
+            style="@style/btn"
+
+
+
+            android:text="@string/sauvgarder"/>
+    </LinearLayout>
+
 
 </LinearLayout>
