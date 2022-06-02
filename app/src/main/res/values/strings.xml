@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Controle2_maruoan</string>
+
+
+    <string name="app_ajout">Ajouter une entrepris</string>
+    <string name="app_edite">Editer une entrepris</string>
+    <string name="app_lister">Lister tous entrepris</string>
 </resources>
