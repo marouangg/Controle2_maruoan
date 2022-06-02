@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Controle2_maruoan">
         <activity
+            android:name=".editer_entreprise"
+            android:exported="false" />
+        <activity
             android:name=".Liste_entreprise"
             android:exported="false" />
         <activity
