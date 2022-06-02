@@ -11,17 +11,17 @@
 
 
     <EditText
-        android:id="@+id/addlib"
+        android:id="@+id/raiss"
         style="@style/zonesaisie"
         android:hint="Tapez votre raison social..." />
 
     <EditText
-        android:id="@+id/addfam"
+        android:id="@+id/addre"
         style="@style/zonesaisie"
         android:hint="Tapez votre adress..." />
 
     <EditText
-        android:id="@+id/addpa"
+        android:id="@+id/cap"
         style="@style/zonesaisie"
         android:hint="Tapez votre capital..."
         android:inputType="numberDecimal" />
@@ -34,15 +34,15 @@
         <Button
             style="@style/btn"
 
-            android:onClick="ajouterProduit"
-            android:text="@string/annuler" />
+            android:onClick="ajouterEntreprise"
+            android:text="@string/sauvgarder" />
 
         <Button
             style="@style/btn"
+android:id="@+id/btn_an"
+android:onClick="annuler_form"
 
-
-
-            android:text="@string/sauvgarder"/>
+            android:text="@string/annuler"/>
     </LinearLayout>
 
 
